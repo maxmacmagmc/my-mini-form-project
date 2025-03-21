@@ -1,15 +1,13 @@
+import "./App.css";
+import MovieSurvey from "./component/MovieSurvey";
 
-import './App.css'
 
 function App() {
-  
-
   return (
-    <>
-    
-      <h1 className='text-xl bg-red-500'>hello</h1>
-    </>
-  )
+    <div className="app-container">
+      <MovieSurvey />
+    </div>
+  );
 }
 
-export default App
+export default App;
